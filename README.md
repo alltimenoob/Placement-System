@@ -41,4 +41,16 @@ Placement System By Team Placement Valley @Hackathon2022
          ```
     
 
-2. Using Vanilla Command Line (Not Recommended)
+2. Using Vanilla Command Line (Not Recommended
+
+
+   * Install Node.js
+      
+      ``` 
+      #Make Sure You have the versions correct ✔️
+      
+      Run npm version
+      
+      npm: '8.3.1'
+      node: '16.14.0'
+      ```
