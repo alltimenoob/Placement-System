@@ -16,9 +16,7 @@ Placement System By Team Placement Valley @Hackathon2022
          ```
 
 
-    * Install Docker ( Make sure you have supporting operating system and virtualizaiton is turned on)
-
-        [Installation On Windows](https://www.youtube.com/watch?v=5nX8U8Fz5S0) 
+    * Install Docker ( Make sure you have supporting operating system and virtualizaiton is turned on )[Installation On Windows](https://www.youtube.com/watch?v=5nX8U8Fz5S0) 
 
     * Open the repository folder and write these two commands in the terminal
          
@@ -31,7 +29,9 @@ Placement System By Team Placement Valley @Hackathon2022
 
 
 
-        `docker-compose up`
+        ```
+        docker-compose up
+        ```
 
 
 2. Using Vanilla Command Line (Not Recommended)
