@@ -1,15 +1,25 @@
 # Placement-System
 
- Placement System By Team Placement Valley @Hackathon2022
+ Placement System By Team Placement Valley @SmartIndiaHackathon2022
 
+
+## How to use work on this project?
+
+ - Fork this repository.
+ - Setup the project. (Read setup part)
+ - Then add it to the origin upstream
+ - Make changes.
+ - Create a pull request. (~Mention the work in comment)
+
+**[Refer to this article](https://www.dataschool.io/how-to-contribute-on-github/)**
 
 ## Setup 💻
 
 #### Using Docker 🐳
 
-   - Clone this repository
+   - Clone the repository
 
-         https://github.com/alltimenoob/Placement-System.git
+         https://github.com/your_username/Placement-System.git
       
 
 
@@ -128,6 +138,5 @@ Theme for the front-end will be decided among team members and each member will 
 decided theme for rest of the project.**
 
 *if any query, it will be discussed among team members.*
-
 
 
