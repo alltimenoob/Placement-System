@@ -60,3 +60,22 @@ Placement System By Team Placement Valley @Hackathon2022
       npm install
       ```
       Same for server folder
+      
+   * For Front-End (Client/React) 
+   
+      ```
+      npm start
+      ```
+   * For Back-End (Server/Node-Express)
+      ```
+      npm install nodemon
+      nodemon server.js
+      ```
+   * Now you are ready to go!
+    
+      ```
+      React.js   : localhost:3000
+      Express.js : localhost:4000
+      ```
+      
+     
