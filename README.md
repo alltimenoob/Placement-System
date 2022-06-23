@@ -12,7 +12,7 @@ Placement System By Team Placement Valley @Hackathon2022
 
 
 
-        https://github.com/alltimenoob/Placement-System.git
+        `https://github.com/alltimenoob/Placement-System.git`
 
 
     * Install Docker ( Make sure you have supporting operating system and virtualizaiton is turned on)
@@ -23,14 +23,14 @@ Placement System By Team Placement Valley @Hackathon2022
 
 
 
-        docker push solomihir/placement-system-server:latest
-        docker push solomihir/placement-system-client:latest
+        `docker push solomihir/placement-system-server:latest`
+        `docker push solomihir/placement-system-client:latest`
 
     * Run Docker Compose (Make sure you are in directory same as docker-compose.yml file)
 
 
 
-        docker-compose up
+        `docker-compose up`
 
 
 2. Using Vanilla Command Line (Not Recommended)
