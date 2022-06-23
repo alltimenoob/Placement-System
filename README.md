@@ -16,16 +16,16 @@ Placement System By Team Placement Valley @Hackathon2022
          ```
 
 
-    * Install Docker (Make sure you have supporting operating system and virtualizaiton is turned on)  [Installation On Windows](https://www.youtube.com/watch?v=5nX8U8Fz5S0) 
+    * Install Docker (Make sure you have supporting operating system and virtualizaiton is turned on)  [Installation On Windows](https://www.youtube.com/watch?v=5nX8U8Fz5S0) 🎥
 
-    * Open the repository folder and write these two commands in the terminal
+    * Open the repository folder and write these two commands in the terminal 💻
          
          ```
          docker pull solomihir/placement-system-server:latest
          docker pull solomihir/placement-system-client:latest
          ```
 
-    * Run Docker Compose (Make sure you are in directory same as docker-compose.yml file)
+    * Run Docker Compose (Make sure you are in directory same as docker-compose.yml file) 📁
 
 
 
@@ -41,7 +41,7 @@ Placement System By Team Placement Valley @Hackathon2022
          ```
     
 
-2. Using Vanilla Command Line (Not Recommended
+2. Using Vanilla Command Line (Not Recommended) 😞
 
 
    * Install Node.js 🍃
