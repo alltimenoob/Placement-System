@@ -24,7 +24,8 @@ Placement System By Team Placement Valley @Hackathon2022
 
 
         ```docker push solomihir/placement-system-server:latest
-        ```docker push solomihir/placement-system-client:latest
+            
+           docker push solomihir/placement-system-client:latest
 
     * Run Docker Compose (Make sure you are in directory same as docker-compose.yml file)
 
