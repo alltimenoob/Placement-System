@@ -4,9 +4,9 @@ Placement System By Team Placement Valley @Hackathon2022
 
 ## How To Setup?
 
-### There are two ways to setup this project on your machine.
+### There are two ways to setup this project on your machine. 👀
 
-1. Using Docker
+1. Using Docker 🐳
 
     * Clone this repository
 
@@ -44,7 +44,7 @@ Placement System By Team Placement Valley @Hackathon2022
 2. Using Vanilla Command Line (Not Recommended
 
 
-   * Install Node.js
+   * Install Node.js 🍃
       
       ``` 
       #Make Sure You have the versions correct ✔️
