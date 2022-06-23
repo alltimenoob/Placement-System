@@ -1,0 +1,7 @@
+FROM node:18-alpine3.15
+WORKDIR /server
+COPY package.json .
+COPY . .
+RUN npm i
+RUN npm install nodemon
+CMD ["npm", "run", "start"]

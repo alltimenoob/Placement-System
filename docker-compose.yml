@@ -1,0 +1,26 @@
+version: "3.8"
+services:
+  client:
+    build:
+      context: ./client
+    volumes:
+      - ./client/src:/client/src:ro
+      - ./client/public:/client/public:ro
+    ports:
+      - 3000:3000
+    image: placement-system-client:latest
+    container_name: react_container
+    command: npm start
+    environment:
+      - WATCHPACK_POLLING=true
+  server:
+      build:
+        context: ./server
+      volumes:
+        - ./server:/server:ro
+        - /server/node_modules
+      ports:
+        - 4000:4000
+      image: placement-system-server:latest
+      container_name: node_container
+      command: npm start
