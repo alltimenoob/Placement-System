@@ -21,8 +21,8 @@ Placement System By Team Placement Valley @Hackathon2022
     * Open the repository folder and write these two commands in the terminal
          
          ```
-         docker push solomihir/placement-system-server:latest
-         docker push solomihir/placement-system-client:latest
+         docker pull solomihir/placement-system-server:latest
+         docker pull solomihir/placement-system-client:latest
          ```
 
     * Run Docker Compose (Make sure you are in directory same as docker-compose.yml file)
