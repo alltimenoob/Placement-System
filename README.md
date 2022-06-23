@@ -3,7 +3,7 @@
  Placement System By Team Placement Valley @SmartIndiaHackathon2022
 
 
-## How to use work on this project?
+## How to work on this project?
 
  - Fork this repository.
  - Setup the project. (Read setup part)
