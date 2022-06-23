@@ -8,7 +8,7 @@ services:
       - ./client/public:/client/public:ro
     ports:
       - 3000:3000
-    image: placement-system-client:latest
+    image: solomihir/placement-system-client:latest
     container_name: react_container
     command: npm start
     environment:
@@ -21,6 +21,6 @@ services:
         - /server/node_modules
       ports:
         - 4000:4000
-      image: placement-system-server:latest
+      image: solomihir/placement-system-server:latest
       container_name: node_container
       command: npm start
