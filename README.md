@@ -33,5 +33,12 @@ Placement System By Team Placement Valley @Hackathon2022
         docker-compose up
         ```
 
+    * Now you are ready to go! :grinning:
+    
+         ```
+         React.js   : localhost:3000
+         Express.js : localhost:4000
+         ```
+    
 
 2. Using Vanilla Command Line (Not Recommended)
