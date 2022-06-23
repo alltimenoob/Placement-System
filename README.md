@@ -11,13 +11,14 @@ Placement System By Team Placement Valley @Hackathon2022
     * Clone this repository
 
 
-
-        `https://github.com/alltimenoob/Placement-System.git`
+         ```
+         https://github.com/alltimenoob/Placement-System.git
+         ```
 
 
     * Install Docker ( Make sure you have supporting operating system and virtualizaiton is turned on)
 
-        [Check Out This Video](https://www.youtube.com/watch?v=5nX8U8Fz5S0) 
+        `[Check Out This Video](https://www.youtube.com/watch?v=5nX8U8Fz5S0) `
 
     * Open the repository folder and write these two commands in the terminal
          
