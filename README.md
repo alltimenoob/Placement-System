@@ -20,12 +20,9 @@ Placement System By Team Placement Valley @Hackathon2022
         [Check Out This Video](https://www.youtube.com/watch?v=5nX8U8Fz5S0) 
 
     * Open the repository folder and write these two commands in the terminal
-
-
-        ```docker push solomihir/placement-system-server:latest
-        
-        
-        ```docker push solomihir/placement-system-client:latest
+         
+         docker push solomihir/placement-system-server:latest
+         docker push solomihir/placement-system-client:latest
 
     * Run Docker Compose (Make sure you are in directory same as docker-compose.yml file)
 
