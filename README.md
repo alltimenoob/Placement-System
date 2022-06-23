@@ -1,50 +1,41 @@
 # Placement-System
-Placement System By Team Placement Valley @Hackathon2022
+
+ Placement System By Team Placement Valley @Hackathon2022
 
 
-## How To Setup? 💻
+## Setup 💻
 
-### There are two ways to setup this project on your machine. 
+#### Using Docker 🐳
 
-1. Using Docker 🐳
+   - Clone this repository
 
-    * Clone this repository
-
-
-         ```
          https://github.com/alltimenoob/Placement-System.git
-         ```
+      
 
 
-    * Install Docker (Make sure you have supporting operating system and virtualizaiton is turned on)  [Installation On Windows](https://www.youtube.com/watch?v=5nX8U8Fz5S0) 
+   - Install Docker (Make sure you have supporting operating system and virtualizaiton is turned on)  [Installation On Windows](https://www.youtube.com/watch?v=5nX8U8Fz5S0) 
 
-    * Open the repository folder and write these two commands in the terminal 
+   - Open the repository folder and write these two commands in the terminal 
          
-         ```
          docker pull solomihir/placement-system-server:latest
          docker pull solomihir/placement-system-client:latest
-         ```
 
-    * Run Docker Compose (Make sure you are in directory same as docker-compose.yml file) 
+   - Run Docker Compose (Make sure you are in directory same as docker-compose.yml file) 
 
-
-
-        ```
         docker-compose up
-        ```
 
-    * Now you are ready to go!
-    
-         ```
+   - Now you are ready to go!
+         
+         #Port may differ
          React.js   : localhost:3000
          Express.js : localhost:4000
-         ```
+
     
 
-2. Using Vanilla Command Line (Not Recommended)
+#### Using Vanilla Command Line (Not Recommended) 
 
 
-   * Install Node.js 🍃 [Download](https://nodejs.org/en/download/)
+   - Install Node.js 🍃 [Download](https://nodejs.org/en/download/)
       
       ``` 
       #Make Sure You have the versions correct ✔️
@@ -54,14 +45,14 @@ Placement System By Team Placement Valley @Hackathon2022
       npm: '8.3.1'
       node: '16.14.0'
       ```
-   * Go to client folder
+   - Go to client folder
       
       ```
       npm install
       ```
-      Same for server folder
+      *same for server folder*
       
-   * For Front-End (Client/React) 
+   - For Front-End (Client/React)
    
       ```
       npm start
@@ -74,8 +65,69 @@ Placement System By Team Placement Valley @Hackathon2022
    * Now you are ready to go!
     
       ```
+      #Port may differ
       React.js   : localhost:3000
       Express.js : localhost:4000
       ```
+
+
+## Database Notes 🧮
+
+-  Database should be perfectly analyzed first.
+-  Back-end developer should follow ODM rules . `i.e. mognoose`
+-  For each collection there must exist exactly one model.
+
+<sub>I have added each group memeber to the MongoDB project with database admin access 
+if you are not enrolled yet please check your email.</sub>
+
+## Naming Convention 📌 
+
+ - Front-End Examples : 
+   
+   ```
+   # State for a tag
+
+   Ex.
+      <Alert> Alert </div>
+
+      const [alertState , setAlertState //function name]
+
+   # Storing data
+
+   Ex. 
+      var person;
+         or 
+      const [person , setPerson]
+
+   # If two variable name conflicts (Recommended)
+
+      var personLocal; // Give context
+      var personRemote; 
+   ```
+
+- Back-End Examples:
+
+   ```
+   #Strictly provide context
       
-     
+      var personModel;
+      const databaseURL;
+      var reportPDF;
+      var personSchema;
+      
+      getReportPDF();  //function names
+      getPersonModel();
+      setPersonModel();
+      setPersonSchema();
+
+   ```
+## Work Distribution 👨‍💼 
+
+**You may work on the module of your choice, One module includes front-end and back-end both.
+Theme for the front-end will be decided among team members and each member will commit to 
+decided theme for rest of the project.**
+
+*if any query, it will be discussed among team members.*
+
+
+
