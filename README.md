@@ -44,9 +44,7 @@ Placement System By Team Placement Valley @Hackathon2022
 2. Using Vanilla Command Line (Not Recommended)
 
 
-   * Install Node.js 🍃 
-
-      [Link](https://nodejs.org/en/download/)
+   * Install Node.js 🍃 [Download](https://nodejs.org/en/download/)
       
       ``` 
       #Make Sure You have the versions correct ✔️
@@ -56,3 +54,9 @@ Placement System By Team Placement Valley @Hackathon2022
       npm: '8.3.1'
       node: '16.14.0'
       ```
+   * Go to client folder
+      
+      ```
+      npm install
+      ```
+      `Do same for server folder`
