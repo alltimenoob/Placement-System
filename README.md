@@ -59,4 +59,4 @@ Placement System By Team Placement Valley @Hackathon2022
       ```
       npm install
       ```
-      Do same for server folder
+      same for server folder
