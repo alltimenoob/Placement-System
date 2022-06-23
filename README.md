@@ -18,7 +18,7 @@ Placement System By Team Placement Valley @Hackathon2022
 
     * Install Docker ( Make sure you have supporting operating system and virtualizaiton is turned on)
 
-        `[Check Out This Video](https://www.youtube.com/watch?v=5nX8U8Fz5S0) `
+        [Installation On Windows](https://www.youtube.com/watch?v=5nX8U8Fz5S0) 
 
     * Open the repository folder and write these two commands in the terminal
          
